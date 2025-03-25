@@ -13,8 +13,8 @@ public class Aritmetica {
         System.out.println("a % b = " + (a % b)); //Resto da divisão
         System.out.println("a++ = " + (a++)); //Incremento em a
         System.out.println("b++ = " + (b++)); //Incremento em b
-        System.out.println(" b = " + (b)); //Valor de b
-        System.out.println(" a = " + (a)); //Valor de a
-        System.out.println("Valores: a = " + a + " b = " + b); //Valor de a e b
+        System.out.println(" b = " + (b)); //Valor de b incrementado
+        System.out.println(" a = " + (a)); //Valor de a incrementado
+        System.out.println("Valores: a = " + a + " b = " + b); //Valor de a e b incrementado
     }
 }
