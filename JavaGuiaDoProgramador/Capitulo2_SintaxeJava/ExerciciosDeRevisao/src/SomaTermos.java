@@ -1,5 +1,6 @@
 package JavaGuiaDoProgramador.Capitulo2_SintaxeJava.ExerciciosDeRevisao.src;
 import java.util.Scanner;
+//Calcular a soma dos termos de 1 até 1/N.
 public class SomaTermos {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -14,5 +15,6 @@ public class SomaTermos {
             }
         }
         System.out.println("A soma dos termos de 1 até 1/" + numero + " é: "  + soma + ".");
+        sc.close();
     }
 }
