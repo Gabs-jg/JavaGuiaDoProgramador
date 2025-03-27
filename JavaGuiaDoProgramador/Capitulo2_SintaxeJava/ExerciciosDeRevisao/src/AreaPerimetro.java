@@ -1,5 +1,6 @@
 package JavaGuiaDoProgramador.Capitulo2_SintaxeJava.ExerciciosDeRevisao.src;
 import java.util.Scanner;
+//Programa para calcular área de perímetro de um retângulo com valores informados.
 public class AreaPerimetro {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -8,6 +9,7 @@ public class AreaPerimetro {
         System.out.print("Informe o comprimento do terreno: ");
         double comprimento = sc.nextDouble();
         System.out.println("Área: " + calcularArea(largura, comprimento) + ". Perímetro: " + calcularPerimetro(largura, comprimento));
+        sc.close();
     }
 
     public static double calcularArea(double comprimento, double largura) {
