@@ -1,6 +1,6 @@
 package JavaGuiaDoProgramador.Capitulo2_SintaxeJava.ExerciciosDeRevisao.src;
 import java.util.Scanner;
-
+//Programa para ler 3 números reais e imprimir o maior deles.
 public class MaiorNumero {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -22,5 +22,6 @@ public class MaiorNumero {
         } else {
             System.out.println("O número " + n3 + " é o maior número entre os números informados.");
         }
+        sc.close();
     }
 }
