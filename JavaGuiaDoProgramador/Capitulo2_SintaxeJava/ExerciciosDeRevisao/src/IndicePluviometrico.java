@@ -1,5 +1,6 @@
 package JavaGuiaDoProgramador.Capitulo2_SintaxeJava.ExerciciosDeRevisao.src;
 import java.util.Scanner;
+//Determinar Índice pluviométrico médio e máximo junto ao dia, com base em valores informados.
 public class IndicePluviometrico {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -7,7 +8,7 @@ public class IndicePluviometrico {
         int diaMax = 0;
         double indiceMax = 0;
         double soma = 0;
-        final int QUANT_DIAS = 5;
+        final int QUANT_DIAS = 31;
         while(diaDoMes <= QUANT_DIAS) {
             System.out.print("Informe o índice pluviométrico do dia " + diaDoMes +": ");
             double indice = sc.nextDouble();
