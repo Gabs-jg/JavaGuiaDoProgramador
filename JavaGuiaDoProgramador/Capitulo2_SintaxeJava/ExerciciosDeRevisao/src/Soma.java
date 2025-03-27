@@ -1,5 +1,6 @@
 package JavaGuiaDoProgramador.Capitulo2_SintaxeJava.ExerciciosDeRevisao.src;
 import java.util.Scanner;
+//Fazer a soma de todos os números fornecidos, descartando entradas inválidas.
 public class Soma {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
