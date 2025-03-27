@@ -7,9 +7,8 @@ public class Nome {
         Scanner sc = new Scanner(System.in);
         System.out.print("Informe um nome: ");
         String nome = sc.nextLine();
-        
-
         System.out.println("Nome informado: " + nome);
+        sc.close();
     }
     
 }
