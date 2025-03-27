@@ -1,4 +1,4 @@
-package JavaGuiaDoProgramador.Capitulo2_SintaxeJava.ExerciciosDeRevisao;
+package JavaGuiaDoProgramador.Capitulo2_SintaxeJava.ExerciciosDeRevisao.src;
 import java.util.Scanner;
 
 //Programa para exibir nome informado na tela.
