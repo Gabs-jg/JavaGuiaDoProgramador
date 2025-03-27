@@ -6,11 +6,11 @@ public class UsoArrays {
         Scanner sc = new Scanner(System.in); //Prepara o console
         System.out.print("Número de elementos: "); //Lê o número de elementos
         int tamanho = sc.nextInt();
-        System.out.println("Preenchimento real? "); //Lê preenchimento
+        System.out.print("Preenchimento real? "); //Lê preenchimento
         double valor = sc.nextDouble();
         double arranjo1[] = new double[tamanho]; //Aloca arranjo
         Arrays.fill(arranjo1, valor); //Preenche arranjo
-        System.out.println(Arrays.toString(arranjo1)); //Exibe arranjo
+        System.out.print(Arrays.toString(arranjo1)); //Exibe arranjo
 
         //Lê posições inicial e final da cópia
         System.out.print("Posição inicial da cópia? ");
